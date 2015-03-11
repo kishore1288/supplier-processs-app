@@ -1,0 +1,47 @@
+.main-page{ background-color: #bce8f1; color: #ffffff;}
+.leftpage{ background-color: #ffffff; height:800px;}
+.rightpage{background:#dcecf0;}
+.rightlogo{ margin: 0px auto; padding-top: 200px;}
+.srchlogo{ height: 18px;}
+.agrup{padding-top: 10px;  }
+/*search box js css*/
+* {  padding:0;  margin:0;  }
+#footer{background-color: rgba(54,62,67,0.9);height: 40px;}
+#footer .btmli { padding-top: 10px;}
+#footer .btmli a{ color: #ffffff; text-decoration: none;}
+
+body{text-align: center; background-color: #bce8f1;}
+/*components groupby js css*/
+#groupfilters{
+    list-style: none;
+    display: inline-block;
+    width: 340px;
+    text-align: left;
+}
+.spciallist ul li{  background-color: #ffff00;list-style: none;}
+.agrid{ color: #000000; text-align: left;}
+.specialblock{   overflow-y: scroll;  border-bottom:1px solid #e5e5e5; height: 425px;padding-top: 10px; }
+.srchlogo{ height: 17px;}
+.specialblock ul{ list-style: none;}
+.spciallist{ border-bottom:1px solid #f2f2f2;height: 80px; }
+.spciallist .agrm{ display: inline-block; width:46%; }
+.spciallist:hover{ background:#f0f0f0; }
+.agrid{  font-size:16px;text-align: left;color:#007833; }
+.agrmny{    color:#333333;  font-size:18px; text-align: right; }
+.agrcrncy{  font-size:12px; color:#666666; text-align: right;  }
+.agrdpesc{text-align:left;font-size:13px; color:#666666;width: 70%; }
+
+#searchresults{ background-color: #ffffff;}
+.brder{ padding-top: 10px;}
+.underline{border-bottom:1px solid #dddddd; width:100%;  }
+.agrtext{ font-weight:bold; color:#666666; }
+.vimg{ padding-bottom: 10px; text-align: right;}
+.details{ padding-bottom: 10px;}
+.logo{ margin-left:275px; margin-top:240px;   }
+ /*group by component*/
+#groupfilters p{  display: block;  padding: 15px 20px; background-color: #F8F8F8;  color: #7B8585;  margin-bottom: 3px;  position: relative;  cursor: pointer; transition: 0.3s;}
+#groupfilters p b{  position: absolute;  right: 28px;  line-height: 16px;  width: 100px;  color: #808787;  text-align: right;  }
+#groupfilters p:hover{background-color:#d8f2f1;  }
+#groupfiltersp.active{  color:#fff;background-color:#41c7c2;  }
+#groupfilters p.active b{color: #fff;}
+/*group by component ends*/
